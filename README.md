@@ -1,7 +1,7 @@
 Para compilar o programa execute:
 
-**	$ make all
+$ make all
 
 Para remover o executável faça:
 
-**	$ make clean
+$ make clean
