@@ -15,6 +15,12 @@ int BinomialCoeficient(int n, int p, bool print = false)
 {
     int C[n+1][p+1]; // Declarando o array bidimensional (tabela) a ser utilizado.
 
+    for(int i = 0; i <= n; ++i){
+    	for(int j = 0; j <= p; ++j)
+    		C[i][j] = 0;
+    }
+
+
     for(int i = 0; i <= n; ++i){  // Calcula o valor do coeficiente de baixo para cima.
         for(int j = 0; j <= (i < p? i : p); j++){
             if (j == 0 || j == i)   // Casos particulares.
