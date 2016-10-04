@@ -1,7 +1,13 @@
-Para compilar o programa execute:
+# Triângulo de Pascal
 
-$ make all
+## Para compilar o programa execute:
 
-Para remover o executável faça:
+> $ make all
 
-$ make clean
+## Para executar o programa faça:
+
+> $ ./apa-extra1
+
+## Para remover o executável faça:
+
+> $ make clean
