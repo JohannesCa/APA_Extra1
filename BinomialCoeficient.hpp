@@ -31,10 +31,10 @@ int BinomialCoeficient(int n, int p, bool print = false)
     }
 
     if(print){
-    	printf(">> Calculando o Coeficiente C(%i,%i)\n>> Tabela:\n", n, p);
+    	printf(">> Calculando o Coeficiente C(%i,%i)\n>> Triângulo de Pascal:\n", n, p);
     	for(int i = 0; i <= n; ++i){
-    		for(int j = 0; j <= p; ++j){
-    			printf("%i\t\t", C[i][j]);
+    		for(int j = 0; j <= (i < p? i : p); ++j){
+    			printf("%i\t", C[i][j]);
     		}
     		std::cout << std::endl;
     	}
